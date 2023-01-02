@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Nopcommerce" parallel="none">
+    <test name="Test customer">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.nopcommerce.demo.feature.login.LoginUnsuccessful"/>
+            <class name="com.nopcommerce.demo.feature.login.LoginSuccessful"/>
+            <class name="com.nopcommerce.demo.feature.register.RegisterUnsuccessful"/>
+            <class name="com.nopcommerce.demo.feature.register.RegisterSuccessful"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
